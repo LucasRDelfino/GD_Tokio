@@ -1,0 +1,73 @@
+.container-areas {
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    margin-top: 20px;
+    
+   
+}
+
+.energy {
+    width: 98%;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    gap: 20px;
+   
+}
+
+.responsabilidade-civil {
+    width: 98%;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+
+}
+
+.container-criadores {
+    width: 90%;
+    min-height: 100vh;
+    margin: 70px auto;
+    
+  
+    
+}
+
+.container-criadores-elementos {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-item {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 0;
+    border-radius: 30px;
+    box-shadow: 21px 15px 61px -37px rgb(95, 95, 95);
+    padding: 30px 15px; 
+    transition: .5s;
+}
+
+.card-item img{
+    justify-content: center;
+    width: 100%;
+    border-radius: 200px;
+}
+
+.redes a {
+    color: #777;
+    margin-right: 10px;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.redes a:hover {
+    color: #29b46f;
+}
